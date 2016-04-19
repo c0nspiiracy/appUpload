@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Touch Here</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_task">Task</string>
+    <string name="title_activity_find_app">FindApp</string>
+    <string name="title_activity_solve">Solve</string>
+    <string name="title_activity_facebook">facebook</string>
+    <string name="title_activity_gmail">gmail</string>
+    <string name="title_activity_google_photos">google_photos</string>
+    <string name="title_activity_problems">problems</string>
+    <string name="title_activity_check_battery_level">CheckBatteryLevel</string>
+    <string name="title_activity_instagram">instagram</string>
+    <string name="title_activity_netflix">netflix</string>
+    <string name="title_activity_snapchat">snapchat</string>
+    <string name="title_activity_spotify">spotify</string>
+    <string name="title_activity_twitter">twitter</string>
+    <string name="title_activity_youtube">Youtube</string>
+    <string name="title_activity_charge_device">ChargeDevice</string>
+    <string name="title_activity_wifi">Wifi</string>
+    <string name="title_activity_volume">volume</string>
+    <string name="title_activity_manage_security">ManageSecurity</string>
+    <string name="title_activity_change_wallpaper">ChangeWallpaper</string>
+    <string name="title_activity_warm_device">WarmDevice</string>
+    <string name="title_activity_restart_device">RestartDevice</string>
+    <string name="title_activity_block_number">BlockNumber</string>
+    <string name="title_activity_paypal">paypal</string>
+</resources>

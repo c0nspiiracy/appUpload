@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.ducttapeart.touchhere">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task"
+            android:label="@string/title_activity_task"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FindApp"
+            android:label="@string/title_activity_find_app"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Solve"
+            android:label="@string/title_activity_solve"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".facebook"
+            android:label="@string/title_activity_facebook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gmail"
+            android:label="@string/title_activity_gmail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".google_photos"
+            android:label="@string/title_activity_google_photos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".problems"
+            android:label="@string/title_activity_problems"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckBatteryLevel"
+            android:label="@string/title_activity_check_battery_level"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".instagram"
+            android:label="@string/title_activity_instagram"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".netflix"
+            android:label="@string/title_activity_netflix"
+            android:parentActivityName=".FindApp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.ducttapeart.touchhere.FindApp" />
+        </activity>
+        <activity
+            android:name=".snapchat"
+            android:label="@string/title_activity_snapchat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".spotify"
+            android:label="@string/title_activity_spotify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".twitter"
+            android:label="@string/title_activity_twitter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Youtube"
+            android:label="@string/title_activity_youtube"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChargeDevice"
+            android:label="@string/title_activity_charge_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wifi"
+            android:label="@string/title_activity_wifi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".volume"
+            android:label="@string/title_activity_volume"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageSecurity"
+            android:label="@string/title_activity_manage_security"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeWallpaper"
+            android:label="@string/title_activity_change_wallpaper"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WarmDevice"
+            android:label="@string/title_activity_warm_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RestartDevice"
+            android:label="@string/title_activity_restart_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BlockNumber"
+            android:label="@string/title_activity_block_number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".paypal"
+            android:label="@string/title_activity_paypal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
